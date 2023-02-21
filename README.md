@@ -1,5 +1,10 @@
-ITI-DevOps
-# RHSA-Lab-4
-New Task for Red Hat System Admin Lab 4 
-
-test
+pipeline {
+    agent any
+    stages {
+        stage('Hello') {
+            steps {
+                echo 'Hello World'
+            }
+        }
+    }
+}
